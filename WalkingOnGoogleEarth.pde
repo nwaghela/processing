@@ -4,7 +4,7 @@ Zoog zoog;
 float a = 0;
 float b = 0;
 
-String folder = "C:\\Users\\nwaghela\\Videos\\EBC\\Phakding\\footage_2\\man";
+String folder = "man";
 int start = 200;
 int numFrames = 400;  // The number of frames in the animation
 int currentFrame = 0;
