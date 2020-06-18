@@ -21,7 +21,7 @@ float bubble = 0.2;
 
 void setup() {
   size(1920, 1080);
-  img = loadImage("C:\\Users\\nwaghela\\Videos\\EBC\\Blr-kath\\footage\\blr-kath.jpeg");
+  img = loadImage("blr-kath.jpeg"); // provide valid map image file
   frameRate(25);
   noStroke();
   distX = endX - beginX;
@@ -71,7 +71,7 @@ void draw() {
   
 
   
-  saveFrame("C:\\Users\\nwaghela\\Videos\\EBC\\Blr-kath\\footage\\frame-####.tif");
+  saveFrame("frame-####.tif"); // provide valid destination location to generate frames
   if(frameCount > 300) { // 20 seconds * 25 fps = 500
     noLoop();
   }
