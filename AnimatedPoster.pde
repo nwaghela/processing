@@ -32,7 +32,7 @@ void draw() {
    drawEffect();
    rotatetext();
    
-    saveFrame("C:\\Users\\nwaghela\\Videos\\EBC\\Poster\\frame-####.tif");
+    saveFrame("Poster\\frame-####.tif");  // provide destination folder
     if(frameCount > 500) { // 20 seconds * 25 fps = 500
       noLoop();
     }
