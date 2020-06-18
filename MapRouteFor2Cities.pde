@@ -1,3 +1,4 @@
+// Example for Bangalore and kathmandu
 float beginX = 959;  // Initial x-coordinate
 float beginY = 807;  // Initial y-coordinate
 float endX = 1194;   // Final x-coordinate
