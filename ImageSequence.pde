@@ -18,7 +18,7 @@ float text1H = textC;
 float text2H = textC;
 float bubble = 0.2;
 
-String folder = "C:\\Users\\nwaghela\\Videos\\EBC\\Kathmandu";
+String folder = "Kathmandu";  // folder to pick map frames
 int numFrames = 150;  // The number of frames in the animation
 int currentFrame = 0;
 PImage[] images = new PImage[numFrames];
@@ -28,7 +28,7 @@ void setup() {
   size(1920, 1080);
   frameRate(24);
   for (int i = 0; i < numFrames; i++) {
-    String imageName = folder+ "\\footage\\Kathmandu_" + nf(i, 3) + ".jpeg";
+    String imageName = folder+ "\\Kathmandu_" + nf(i, 3) + ".jpeg";
     images[i] = loadImage(imageName);
   }
   noStroke();
